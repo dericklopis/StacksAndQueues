@@ -17,6 +17,16 @@ namespace StacksAndQueues
             stack.Push(56);
             Console.WriteLine("\nThe Elements Are Present In The Stack");
             stack.Display();
+            stack.Peek();
+            stack.Pop();
+            stack.Display();
+            stack.Peek();
+            stack.Pop();
+            stack.Display();
+            stack.Peek();
+            stack.Pop();
+            Console.WriteLine();
+            stack.Display();
             Console.ReadLine();
         }
     }
